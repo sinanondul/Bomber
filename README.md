@@ -6,8 +6,8 @@ The game is still in its protoype stage and is bound to change.
 
 Members:
 
-Fatma Begum Ilhan   21100692
-Sinan Öndül         21200962
+Fatma Begum Ilhan   21100692                                                                                                   
+Sinan Öndül         21200962                                                                                                
 Syed Sarjeel Yusuf  21402744
 
 begüm/yusuf/sinan
