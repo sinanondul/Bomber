@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">game</string>
+    <string name="app_name">Jungle Pursuit</string>
+    <string name="title_activity_dice_display">DiceDisplay</string>
+    <string name="title_activity_main_start">MainStart</string>
+    <string name="help"><b>RULES:</b>\n\n
+                                First decide who gets to be player 1 and who gets to be player 2 \n\n
+                                Next choose your characters and names accordingly\n\n
+                                When the board is st up, click on Dice to roll dice\n\n
+                                Player 1 Starts first\n\n
+                                Player moves the number of blocks according to number on dice\n\n
+                                Landing on a snake head means youre bitten and fall down the snake\n\n
+                                Landing at the bottom of a vine means you swing up to the block at the end of the vine\n\n
+                                Landing on the anti-venom means that for one go you are immune to a snakes bite\n\n
+                                Falling in the oil pit renders you incapable to swing up the vine for one go\n\n
+                                Landing on a banana would result you slipping upto three blocks infron or three blocks back\n\n
+                                Landing on another player would mean that you beat the other player three blocks back\n\n
+                                You win the game by reaching block 100 and thus surviving the jungle!\n\n
+
+
+
+    </string>
+    <string name="credits"> <b>This application is created by</b>\n\n
+                                This app is dedicated to:\n\n\n
+                                <b>Syed Sarjeel Yusuf</b>\n
+                                <b>Fatma Begum Ilhan</b>\n
+                                <b>Sinan Ondul</b>\n
+                                </string>
 </resources>

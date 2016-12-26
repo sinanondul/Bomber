@@ -14,12 +14,14 @@ public class Player {
     Bitmap character;
     Context context; //Check Snake Class for explanation of Context
     int itemType;      // The Item that the player currently has
+    int playerNum;
 
-    public  Player( String name, boolean isMale, Context current){
+    public  Player( String name, boolean isMale, Context current, int num){
         playerName = name;
         gender = isMale;
         blockVal = 1;// Block Val is set to one because player will start from block 1 when created
         prevBlock = 1;
+        playerNum = num;
         this.context = current;
         if (isMale) //Sets the right image of the player depending on gender
             character = BitmapFactory.decodeResource(context.getResources(),R.drawable.male);
@@ -75,6 +77,10 @@ public class Player {
         else if( itemType == 0){ // Here it checks if the itme type is -1, if it is then player can get new item. If not -1, then it means that the player already has some item and cont pick up a new item.
             itemType = val;
         }
+    }
+
+    public int getPlayerNum(){
+        return playerNum;
     }
 
 }

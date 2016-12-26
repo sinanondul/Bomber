@@ -38,6 +38,7 @@ public class Board extends View {
     boolean animate = false;
 
 
+
     public Board(Context context, Player play1, Player play2, int type){
 
         super(context);
